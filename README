@@ -11,3 +11,9 @@ messages you can see in /messages
 
 generated code in /Protobuff
 
+
+
+sample output from app/main is:
+string(24) "{"age":12,"name":"test"}"
+string(8)
+          ╝test"
