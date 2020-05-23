@@ -15,7 +15,11 @@ generated code in /Protobuff
 
 sample output from app/main is:
 var_dump($protoMsg->serializeToJsonString());
-string(24) "{"age":12,"name":"test"}"
+string(91) "{"age":12,"name":"test","smallPicture":"dGVzdA==","tickets":[{"phone":"123","name":"111"}]}"
 var_dump($protoMsg->serializeToString());
-string(8)
-          ╝test"
+string(26)
+           ╝test"╝testR
+
+╚123╚111"
+
+
