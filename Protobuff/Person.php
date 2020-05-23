@@ -42,15 +42,11 @@ class Person extends \Google\Protobuf\Internal\Message
      */
     private $phone_numbers;
     /**
-     * Generated from protobuf field <code>repeated float tttt = 8;</code>
-     */
-    private $tttt;
-    /**
-     * Generated from protobuf field <code>.Protobuff.Person.EyeColour eye_color = 9;</code>
+     * Generated from protobuf field <code>.Protobuff.Person.EyeColour eye_color = 8;</code>
      */
     protected $eye_color = 0;
     /**
-     * Generated from protobuf field <code>repeated .Protobuff.front.Ticket tickets = 10;</code>
+     * Generated from protobuf field <code>repeated .Protobuff.front.Ticket tickets = 9;</code>
      */
     private $tickets;
 
@@ -68,7 +64,6 @@ class Person extends \Google\Protobuf\Internal\Message
      *          main
      *     @type string[]|\Google\Protobuf\Internal\RepeatedField $phone_numbers
      *           aaa
-     *     @type float[]|\Google\Protobuf\Internal\RepeatedField $tttt
      *     @type int $eye_color
      *     @type \Protobuff\Front\Ticket[]|\Google\Protobuf\Internal\RepeatedField $tickets
      * }
@@ -219,29 +214,7 @@ class Person extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated float tttt = 8;</code>
-     * @return \Google\Protobuf\Internal\RepeatedField
-     */
-    public function getTttt()
-    {
-        return $this->tttt;
-    }
-
-    /**
-     * Generated from protobuf field <code>repeated float tttt = 8;</code>
-     * @param float[]|\Google\Protobuf\Internal\RepeatedField $var
-     * @return $this
-     */
-    public function setTttt($var)
-    {
-        $arr = GPBUtil::checkRepeatedField($var, \Google\Protobuf\Internal\GPBType::FLOAT);
-        $this->tttt = $arr;
-
-        return $this;
-    }
-
-    /**
-     * Generated from protobuf field <code>.Protobuff.Person.EyeColour eye_color = 9;</code>
+     * Generated from protobuf field <code>.Protobuff.Person.EyeColour eye_color = 8;</code>
      * @return int
      */
     public function getEyeColor()
@@ -250,7 +223,7 @@ class Person extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>.Protobuff.Person.EyeColour eye_color = 9;</code>
+     * Generated from protobuf field <code>.Protobuff.Person.EyeColour eye_color = 8;</code>
      * @param int $var
      * @return $this
      */
@@ -263,7 +236,7 @@ class Person extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated .Protobuff.front.Ticket tickets = 10;</code>
+     * Generated from protobuf field <code>repeated .Protobuff.front.Ticket tickets = 9;</code>
      * @return \Google\Protobuf\Internal\RepeatedField
      */
     public function getTickets()
@@ -272,7 +245,7 @@ class Person extends \Google\Protobuf\Internal\Message
     }
 
     /**
-     * Generated from protobuf field <code>repeated .Protobuff.front.Ticket tickets = 10;</code>
+     * Generated from protobuf field <code>repeated .Protobuff.front.Ticket tickets = 9;</code>
      * @param \Protobuff\Front\Ticket[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
