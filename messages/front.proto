@@ -1,0 +1,11 @@
+syntax= "proto3";
+
+
+package Protobuff.front;
+
+message Ticket {
+    string phone =1 ;
+    string model =2;
+    string name = 3;
+}
+

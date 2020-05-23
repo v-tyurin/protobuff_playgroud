@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package Protobuff;
+
+import "front.proto";
+
+message Person {
+    int32 age = 1;
+    string name = 2;
+    bytes small_picture = 4;
+    bool is_profile_verified = 5;
+    float height = 6;
+    //main
+    /*
+    * aaa
+    */
+    repeated string phone_numbers = 7;
+    repeated float tttt = 8;
+    enum EyeColour {
+        UNKNOWN_EYE_COLOR = 0;
+        RED = 1;
+        BROWN = 2;
+        BLUE = 3;
+    }
+
+    EyeColour eye_color = 9;
+
+    repeated Protobuff.front.Ticket tickets = 10;
+}
+

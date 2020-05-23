@@ -1,0 +1,19 @@
+{
+    "name": "null/protobuf_playground",
+    "require": {
+        "google/protobuf": "^3.12"
+    },
+    "authors": [
+        {
+            "name": "Null",
+            "email": "neonwired@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "GPBMetadata\\": "GPBMetadata/",
+            "Protobuff\\": "Protobuff/"
+        }
+    }
+}

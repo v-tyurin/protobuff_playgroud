@@ -1,0 +1,13 @@
+build proto
+protoc --proto_path=messages --php_out=. messages/*.proto
+
+dont forget to dump autoload!
+
+download protoc (CLI) you can here:
+    https://github.com/protocolbuffers/protobuf/releases
+
+
+messages you can see in /messages
+
+generated code in /Protobuff
+
