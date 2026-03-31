@@ -1,7 +1,7 @@
 {
     "name": "null/protobuf_playground",
     "require": {
-        "google/protobuf": "^3.12"
+        "google/protobuf": "^4.33"
     },
     "authors": [
         {
